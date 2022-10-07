@@ -9,14 +9,12 @@ module.exports = {
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
-    // 'plugin:prettier/recommended',
-    "plugin:react/jsx-runtime"
+    'plugin:react/jsx-runtime',
   ],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
   },
-  // parser: '@babel/eslint-parser',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -24,7 +22,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['react' /*'prettier'*/, 'react-hooks'],
+  plugins: ['react' /* 'prettier' */, 'react-hooks'],
   settings: {
     react: {
       version: 'detect',
@@ -34,6 +32,8 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'no-unused-vars': 'off',
     'react/no-unescaped-entities': 'off',
+    'react/jsx-filename-extension': 'off',
+    'jsx-a11y/anchor-is-valid': 'off',
   },
 };
 
@@ -59,5 +59,8 @@ module.exports = {
 //     'react/jsx-filename-extension': 'off',
 //     'jsx-a11y/anchor-is-valid': 'off',
 //     'react/react-in-jsx-scope': 'off',
+//     // 'react/react-in-jsx-scope': 'off',
+//     'no-unused-vars': 'off',
+//     'react/no-unescaped-entities': 'off',
 //   },
 // };
