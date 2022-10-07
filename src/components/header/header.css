@@ -27,12 +27,12 @@ header {
   align-items: center;
   gap: 0.8rem;
   position: absolute;
-  left: 0;
+  left: 0; /* Ficar de olho aqui, controlar posicionamento dos icons de redes sociais */
   bottom: 3rem;
 }
 
 .header__socials::after {
-  content: '';
+  content: "";
   width: 1px;
   height: 2rem;
   background: var(--color-primary);
@@ -66,6 +66,9 @@ header {
 /* ======= MEDIA QUERIES (MEDIUM DEVICES) ======== */
 
 @media screen and (max-width: 1024px) {
+  /* .container {
+    background: red;
+  } */
   header {
     height: 68vh;
   }
