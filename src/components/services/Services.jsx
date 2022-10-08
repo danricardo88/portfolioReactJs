@@ -1,10 +1,10 @@
 import React from 'react';
 import './services.css';
 
-const Services = () => {
+function Services() {
   return (
-    <section id='services'>Services</section>
-  )
+    <section id="services">Services</section>
+  );
 }
 
 export default Services;

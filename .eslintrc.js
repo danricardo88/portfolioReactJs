@@ -2,38 +2,27 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
-    jest: true,
-    node: true,
   },
   extends: [
-    'eslint:recommended',
     'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
-    'plugin:react/jsx-runtime',
+    'airbnb',
   ],
-  globals: {
-    Atomics: 'readonly',
-    SharedArrayBuffer: 'readonly',
-  },
+  overrides: [
+  ],
   parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['react' /* 'prettier' */, 'react-hooks'],
-  settings: {
-    react: {
-      version: 'detect',
-    },
-  },
+  plugins: [
+    'react',
+  ],
   rules: {
+    'react/jsx-filename-extension': 'off',
+    'jsx-a11y/anchor-is-valid': 'off',
     'react/react-in-jsx-scope': 'off',
     'no-unused-vars': 'off',
     'react/no-unescaped-entities': 'off',
-    'react/jsx-filename-extension': 'off',
-    'jsx-a11y/anchor-is-valid': 'off',
+    // 'jsx-a11y/img-redundant-alt': 'off',
   },
 };
 
@@ -41,26 +30,37 @@ module.exports = {
 //   env: {
 //     browser: true,
 //     es2021: true,
+//     jest: true,
+//     node: true,
 //   },
 //   extends: [
+//     'eslint:recommended',
 //     'plugin:react/recommended',
-//     'airbnb',
+//     'plugin:react-hooks/recommended',
+//     'plugin:react/jsx-runtime',
 //   ],
-//   overrides: [
-//   ],
+//   globals: {
+//     Atomics: 'readonly',
+//     SharedArrayBuffer: 'readonly',
+//   },
 //   parserOptions: {
+//     ecmaFeatures: {
+//       jsx: true,
+//     },
 //     ecmaVersion: 'latest',
 //     sourceType: 'module',
 //   },
-//   plugins: [
-//     'react',
-//   ],
+//   plugins: ['react' /* 'prettier' */, 'react-hooks'],
+//   settings: {
+//     react: {
+//       version: 'detect',
+//     },
+//   },
 //   rules: {
-//     'react/jsx-filename-extension': 'off',
-//     'jsx-a11y/anchor-is-valid': 'off',
 //     'react/react-in-jsx-scope': 'off',
-//     // 'react/react-in-jsx-scope': 'off',
 //     'no-unused-vars': 'off',
 //     'react/no-unescaped-entities': 'off',
+//     'react/jsx-filename-extension': 'off',
+//     'jsx-a11y/anchor-is-valid': 'off',
 //   },
 // };

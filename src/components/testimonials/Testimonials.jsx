@@ -1,11 +1,10 @@
 import React from 'react';
-import './testimonials.css'
+import './testimonials.css';
 
-
-const Testimonials = () => {
+function Testimonials() {
   return (
-    <section id='testimonials'>Testimonials</section>
-  )
+    <section id="testimonials">Testimonials</section>
+  );
 }
 
-export default Testimonials
+export default Testimonials;
