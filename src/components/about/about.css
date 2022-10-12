@@ -36,6 +36,7 @@
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
+  /* transition: var(--transition); */
 }
 
 .about__card::hover {
