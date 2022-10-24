@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 35% 50%;
   gap: 15%;
+  /* transition: var(--transition); */
 }
 
 .about__me {
@@ -36,13 +37,13 @@
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
-  /* transition: var(--transition); */
 }
 
-.about__card::hover {
+.about__card:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
   cursor: default;
+  transition: var(--transition);
 }
 
 .about__icon {
