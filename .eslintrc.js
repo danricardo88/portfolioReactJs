@@ -27,5 +27,6 @@ module.exports = {
     // 'jsx-a11y/alt-text': 'off',
     // 'arrow-body-style': 'off',
     'jsx-a11y/control-has-associated-label': 'off',
+    // 'max-len': '200',
   },
 };

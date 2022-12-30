@@ -61,6 +61,31 @@ function Experience() {
                 <small className="text-light">Experienced</small>
               </div>
             </article>
+
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>React Redux</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>React Router</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Context Api & Hooks</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
           </div>
         </div>
 
@@ -79,34 +104,34 @@ function Experience() {
             </article>
 
             <article className="experience__details">
-              <MdDownloading className="experience__details-icon" />
+              <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>SQL</h4>
-                <small className="text-light">Loading...</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
 
             <article className="experience__details">
-              <MdDownloading className="experience__details-icon" />
+              <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Node JS</h4>
-                <small className="text-light">Loading...</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
 
             <article className="experience__details">
-              <MdDownloading className="experience__details-icon" />
+              <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Software Architecture</h4>
-                <small className="text-light">Loading...</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
 
             <article className="experience__details">
-              <MdDownloading className="experience__details-icon" />
+              <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Deployment</h4>
-                <small className="text-light">Loading...</small>
+                <h4>Rest & Express</h4>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
 

@@ -1,25 +1,32 @@
 import React from 'react';
-import { BsLinkedin } from 'react-icons/bs';
+import { BsLinkedin, BsInstagram } from 'react-icons/bs';
 import { GoMarkGithub } from 'react-icons/go';
 
 function HeaderSocial() {
   return (
     <div className="header__socials">
       <a
-        href="https://linkedin.com"
+        href="https://www.linkedin.com/in/danielricardo/"
         target="_blank"
         rel="noreferrer"
       >
         <BsLinkedin />
       </a>
       <a
-        href="https://github.com"
+        href="https://github.com/danricardo88"
         target="_blank"
         rel="noreferrer"
       >
         <GoMarkGithub />
       </a>
-      {/* <a href="https://.com" target='_blank'></a> */}
+      <a
+        href="https://www.instagram.com/giganterj/"
+        t
+        arget="_blank"
+
+      >
+        <BsInstagram />
+      </a>
     </div>
   );
 }

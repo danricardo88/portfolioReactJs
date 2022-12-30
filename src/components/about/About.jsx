@@ -2,7 +2,7 @@ import React from 'react';
 import './about.css';
 import { FaAward } from 'react-icons/fa';
 import { GiAnatomy, GiSkills } from 'react-icons/gi';
-import ME from '../../assets/me-about.jpg';
+import ME from '../../assets/me-about1.jpg';
 
 function About() {
   return (
@@ -20,28 +20,40 @@ function About() {
 
         <div className="about__content">
           <div className="about__cards">
-            <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Project</h5>
-              <small>Lorem, ipsum dolor.</small>
-            </article>
+            <a href="#portfolio">
+              <article className="about__card">
+                <FaAward className="about__icon" />
+                <h5>Project</h5>
+                <small>Projects developed and completed during my studies.</small>
+              </article>
+            </a>
 
-            <article className="about__card">
-              <GiAnatomy className="about__icon" />
-              <h5>HardSkills</h5>
-              <small>Lorem, ipsum.</small>
-            </article>
+            <a href="#experience">
+              <article className="about__card">
+                <GiAnatomy className="about__icon" />
+                <h5>HardSkills</h5>
+                <small>Skills that I have already acquired and that I will still acquire.</small>
+              </article>
+            </a>
 
-            <article className="about__card">
-              <GiSkills className="about__icon" />
-              <h5>SoftSkills</h5>
-              <small>Lorem, ipsum.</small>
-            </article>
+            <a href="#softskill">
+              <article className="about__card">
+                <GiSkills className="about__icon" />
+                <h5>SoftSkills</h5>
+                <small>Social-emotional and self-leadership skills.</small>
+              </article>
+            </a>
           </div>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Amet est voluptate praesentium itaque fuga dignissimos nemo quos ex reiciendis,
-            facere fugit aut enim modi, doloribus ad cupiditate natus minus! Repellat!
+            I live in Rio de Janeiro, Brasil.
+            I'm 34 years old and I'm starting my career as a web developer.
+            I'm in a career transition,
+            leaving construction work to reinvent myself as a software programmer.
+            I am currently a student at the Trybe programming school,
+            one of the best and most qualified teaching institutions.
+            Already trained in Front-End and soon I will be earning my Back-End certificate.
+            Owner of a jovial and obstinate spirit, always looking for new learning and challenges!
+            I am looking for opportunities to develop my skills and add value to the team.
           </p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>

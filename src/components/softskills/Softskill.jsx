@@ -1,146 +1,146 @@
 import React from 'react';
-import './services.css';
+import './softskill.css';
 import { BiCheck } from 'react-icons/bi';
 
-function Services() {
+function Softskill() {
   return (
-    <section id="services">
-      <h5>What I Offer</h5>
-      <h2>Services</h2>
+    <section id="softskill">
+      {/* <h5>What I Offer</h5> */}
+      <h2>Soft Skills</h2>
 
       <div className="container services__container">
-        <article className="service">
+        <article className="softskill">
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>Socio-emotional skills</h3>
           </div>
 
           <ul className="service__list">
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <p>Social initiative.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <p>Assertiveness.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <p>Enthusiasm.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <p>Empathy.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <p>I respect the plurality of ideas.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <p>Communicativeness.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <p>Receptive.</p>
             </li>
 
           </ul>
         </article>
         {/* END OF UI/UX */}
 
-        <article className="service">
+        <article className="softskill">
           <div className="service__head">
-            <h3>Web Development</h3>
+            <h3>Team Skills</h3>
           </div>
 
           <ul className="service__list">
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <p>Curiosity to learn.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <p>Creative imagination.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <p>Stress tolerance.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <p>Quick decision making.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <p>Frustration tolerance.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <p>Assertive communication.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <p>Ease of giving and receiving feedback.</p>
             </li>
 
           </ul>
         </article>
         {/* END OF WEB DEVELOPMENT */}
 
-        <article className="service">
+        <article className="softskill">
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>Self-management skills</h3>
           </div>
 
           <ul className="service__list">
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <p>Determination.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <p>Organization.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <p>Focused.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <p>Persistence.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <p>Self-leadership.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <p>Resilient.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <p>Obstinate.</p>
             </li>
 
           </ul>
@@ -151,4 +151,4 @@ function Services() {
   );
 }
 
-export default Services;
+export default Softskill;

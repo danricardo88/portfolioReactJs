@@ -57,7 +57,7 @@ function Portfolio() {
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h2>Projects</h2>
 
       <div className="container portfolio__container">
         {
@@ -87,7 +87,7 @@ function Portfolio() {
                 target="_blank"
                 rel="noreferrer"
               >
-                MeuProjeto
+                My Project
               </a>
             </div>
 
