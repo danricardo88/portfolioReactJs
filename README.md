@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# README
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Sobre o projeto
 
-## Available Scripts
+Este é um novo portfólio construído com React, que utiliza as seguintes dependências:
+- "@redux-devtools/extension": "^3.2.3"
+- "@testing-library/jest-dom": "^5.16.5"
+- "@testing-library/react": "^13.3.0"
+- "@testing-library/user-event": "^13.5.0"
+- "emailjs-com": "^3.2.0"
+- "pigeon-maps": "^0.21.0"
+- "pigeon-marker": "^0.3.4"
+- "pigeon-overlay": "^0.2.3"
+- "react": "^18.2.0"
+- "react-dom": "^18.2.0"
+- "react-icons": "^4.4.0"
+- "react-redux": "^8.0.2"
+- "react-scripts": "5.0.1"
+- "redux": "^4.2.0"
+- "redux-thunk": "^2.4.1"
+- "swiper": "^8.4.4"
+- "web-vitals": "^2.1.4"
 
-In the project directory, you can run:
+## Instalação
 
-### `npm start`
+1. Clone o repositório utilizando o comando `git clone https://github.com/SEU_USUARIO/new_portfolio.git`
+2. Entre na pasta do projeto com `cd new_portfolio`
+3. Instale as dependências com o comando `npm install`
+4. Inicie o projeto com o comando `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Scripts
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- `npm start`: inicia o projeto em modo de desenvolvimento
+- `npm run build`: constrói o projeto para produção
+- `npm run test`: executa os testes
+- `npm run eject`: expõe configurações adicionais
 
-### `npm test`
+## Nota
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Este projeto está configurado para usar o ESLint com as específicas de boa práticas. Além disso, o arquivo `browserslist` especifica os navegadores suportados. Certifique-se de verificar e atualizar essas configurações de acordo com as necessidades do seu projeto.
 
-### `npm run build`
+https://danricardo.netlify.app/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Att, danRicardo.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+//
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# README
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## About the project
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This is a new portfolio built with React, which uses the following dependencies:
+- "@redux-devtools/extension": "^3.2.3"
+- "@testing-library/jest-dom": "^5.16.5"
+- "@testing-library/react": "^13.3.0"
+- "@testing-library/user-event": "^13.5.0"
+- "emailjs-com": "^3.2.0"
+- "pigeon-maps": "^0.21.0"
+- "pigeon-marker": "^0.3.4"
+- "pigeon-overlay": "^0.2.3"
+- "react": "^18.2.0"
+- "react-dom": "^18.2.0"
+- "react-scripts": "5.0.1"
+- "redux": "^4.2.0"
+- "redux-thunk": "^2.4.1"
+- "swiper": "^8.4.4"
+- "web-vitals": "^2.1.4"
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Installation
 
-## Learn More
+1. Clone the repository using the command `git clone https://github.com/YOUR_USERNAME/new_portfolio.git`
+2. Go into the project folder with `cd new_portfolio`
+3. Install the dependencies with the command `npm install`
+4. Start the project with the command `npm start`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Scripts
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- `npm start`: starts the project in development mode
+- `npm run build`: builds the project for production
+- `npm run test`: runs the tests
+- `npm run eject`: exposes additional settings
 
-### Code Splitting
+## Note
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is configured to use ESLint with specific best practices. Additionally, the `browserslist` file specifies the supported browsers. Make sure to check and update these settings according to the needs of your project.

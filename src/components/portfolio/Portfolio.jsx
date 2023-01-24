@@ -14,7 +14,7 @@ const data = [
     image: IMG1,
     title: 'Lorem ipsum dolor sit amet.',
     github: 'https://github.com',
-    projeto: 'https://www.linkedin.com/in/danielricardo/',
+    projeto: 'https://react-neurofitness.netlify.app/',
   },
   {
     id: 2,
@@ -87,7 +87,7 @@ function Portfolio() {
                 target="_blank"
                 rel="noreferrer"
               >
-                My Project
+                Let's Go
               </a>
             </div>
 

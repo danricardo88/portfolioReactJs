@@ -2,7 +2,7 @@ import React from 'react';
 import './about.css';
 import { FaAward } from 'react-icons/fa';
 import { GiAnatomy, GiSkills } from 'react-icons/gi';
-import ME from '../../assets/me-about1.jpg';
+import ME from '../../assets/me-about1.png';
 
 function About() {
   return (
