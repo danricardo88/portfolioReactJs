@@ -1,8 +1,8 @@
 import React from 'react';
 import './portfolio.css';
 import IMG1 from '../../assets/portfolio1.jpg';
-import IMG2 from '../../assets/portfolio2.jpg';
-import IMG3 from '../../assets/portfolio3.jpg';
+import IMG2 from '../../assets/portfolio2.png';
+import IMG3 from '../../assets/portfolio3.png';
 import IMG4 from '../../assets/portfolio4.jpg';
 import IMG5 from '../../assets/portfolio5.png';
 import IMG6 from '../../assets/portfolio6.jpg';
@@ -11,45 +11,45 @@ import IMG6 from '../../assets/portfolio6.jpg';
 const data = [
   {
     id: 1,
-    image: IMG1,
-    title: 'Lorem ipsum dolor sit amet.',
-    github: 'https://github.com',
-    projeto: 'https://react-neurofitness.netlify.app/',
+    image: IMG3,
+    title: 'Trybe Futebol Club',
+    github: 'https://github.com/danricardo88/TrybeFutebolClube',
+    page: 'https://www.linkedin.com/in/danielricardo/',
   },
   {
     id: 2,
-    image: IMG2,
-    title: 'Lorem ipsum dolor sit amet.',
-    github: 'https://github.com',
-    projeto: 'https://www.linkedin.com/in/danielricardo/',
+    image: IMG1,
+    title: 'WebSite React Responsivo',
+    github: 'https://github.com/danricardo88/react-webSite',
+    page: 'https://responsivereactwebsite.netlify.app/',
   },
   {
     id: 3,
-    image: IMG3,
-    title: 'Lorem ipsum dolor sit amet.',
-    github: 'https://github.com',
-    projeto: 'https://www.linkedin.com/in/danielricardo/',
+    image: IMG2,
+    title: 'FullStack Blog',
+    github: 'https://github.com/danricardo88/FullStack-Blog',
+    page: 'https://blogdodan.netlify.app/',
   },
   {
     id: 4,
     image: IMG4,
     title: 'Lorem ipsum dolor sit amet.',
     github: 'https://github.com',
-    projeto: 'https://www.linkedin.com/in/danielricardo/',
+    page: 'https://www.linkedin.com/in/danielricardo/',
   },
   {
     id: 5,
     image: IMG5,
     title: 'Lorem ipsum dolor sit amet.',
     github: 'https://github.com',
-    projeto: 'https://www.linkedin.com/in/danielricardo/',
+    page: 'https://www.linkedin.com/in/danielricardo/',
   },
   {
     id: 6,
     image: IMG6,
     title: 'Lorem ipsum dolor sit amet.',
     github: 'https://github.com',
-    projeto: 'https://www.linkedin.com/in/danielricardo/',
+    page: 'https://www.linkedin.com/in/danielricardo/',
   },
 ];
 
@@ -62,7 +62,7 @@ function Portfolio() {
       <div className="container portfolio__container">
         {
         data.map(({
-          id, image, title, github, projeto,
+          id, image, title, github, page,
         }) => (
           <article key={id} className="portfolio__item">
 
@@ -82,7 +82,7 @@ function Portfolio() {
               </a>
 
               <a
-                href={projeto}
+                href={page}
                 className="btn btn-primary"
                 target="_blank"
                 rel="noreferrer"

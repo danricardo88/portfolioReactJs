@@ -86,6 +86,14 @@ function Experience() {
               </div>
             </article>
 
+            <article className="experience__details">
+              <MdDownloading className="experience__details-icon" />
+              <div>
+                <h4>Angular</h4>
+                <small className="text-light">LOADING...</small>
+              </div>
+            </article>
+
           </div>
         </div>
 
@@ -106,7 +114,7 @@ function Experience() {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>SQL</h4>
+                <h4>MySql</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -114,16 +122,16 @@ function Experience() {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Node JS</h4>
+                <h4>Node.Js</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
 
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <MdDownloading className="experience__details-icon" />
               <div>
-                <h4>Software Architecture</h4>
-                <small className="text-light">Experienced</small>
+                <h4>PHP</h4>
+                <small className="text-light">LOADING...</small>
               </div>
             </article>
 
@@ -136,34 +144,42 @@ function Experience() {
             </article>
 
             <article className="experience__details">
-              <MdDownloading className="experience__details-icon" />
+              <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>TypeScript</h4>
-                <small className="text-light">Loading...</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
 
             <article className="experience__details">
-              <MdDownloading className="experience__details-icon" />
+              <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>POO and Solid</h4>
-                <small className="text-light">Loading...</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
 
             <article className="experience__details">
-              <MdDownloading className="experience__details-icon" />
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>NoSql</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>MongoDB</h4>
-                <small className="text-light">Loading...</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
 
             <article className="experience__details">
-              <MdDownloading className="experience__details-icon" />
+              <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Python</h4>
-                <small className="text-light">Loading...</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
 
