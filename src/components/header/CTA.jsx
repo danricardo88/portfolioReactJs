@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '../../assets/curriculo.pdf';
+import CV from '../../assets/curriculoPTBR.pdf';
 
 function CTA() {
   return (
