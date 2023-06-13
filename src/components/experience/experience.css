@@ -18,7 +18,7 @@
   cursor: default;
 }
 
-.experience__container > div h3 {
+.experience__container > div h2 {
   text-align: center;
   margin-bottom: 2rem;
   color: var(--color-primary);
@@ -37,6 +37,7 @@
 
 .experience__details-icon {
   margin-top: 6px;
+  font-size: 1.5rem;
   color: var(--color-primary);
 }
 

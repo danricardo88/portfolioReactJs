@@ -1,6 +1,7 @@
 .testimonials {
-  width: 50rem;
-  margin-inline: auto;
+  width: 100%;
+  max-width: 50rem;
+  margin: 0 auto;
 }
 
 .testimonials__head {
@@ -9,7 +10,7 @@
 
 .card.testimonial {
   position: relative;
-  text-align: left;
+  text-align: center;
   margin-top: 5rem;
   background: var(--color-bg-variant);
   padding: 1.3rem;
@@ -21,18 +22,18 @@
 .testimonial__avatar {
   width: 4rem;
   height: 4rem;
-  border-radius: 1.5rem;
+  border-radius: 50%;
   border: 2px solid transparent;
   overflow: hidden;
   position: absolute;
   top: -2rem;
-  left: calc(50% - 2rem); /* talvez fique melhor sem */
+  left: 50%;
+  transform: translateX(-50%);
   box-shadow: 0 1.5rem 2rem rgba(26, 26, 25, 0.4);
   transition: var(--transition);
 }
 
 .testimonial:hover .testimonial__avatar {
-  border-radius: 50%;
   border-color: var(--color-gray-400);
 }
 
@@ -46,8 +47,7 @@
 }
 
 .testimonials__btn-container {
-  width: fit-content;
-  margin: 2.5rem auto 0;
+  margin-top: 2.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,24 +66,18 @@
   height: 3rem;
 }
 
-
 /* ======= MEDIA QUERIES (MEDIUM DEVICES) ======== */
 
 @media screen and (max-width: 1024px) {
-  .container.testimonials__container {
-    width: 60%;
-
+  .testimonials {
+    max-width: 60rem;
   }
 }
 
 /* ======= MEDIA QUERIES (SMALL DEVICES) ======== */
 
 @media screen and (max-width: 600px) {
-  .container.testimonials__container {
-    width: var(--container-width-sm);
-  }
-
-  .client__review {
-    width: var(--container-width-sm);
+  .testimonials {
+    max-width: 100%;
   }
 }

@@ -8,8 +8,7 @@ function About() {
   return (
     <section id="about">
 
-      <h5>Ge To Know</h5>
-      <h2>About Me</h2>
+      <h2>Esse sou eu !</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -23,40 +22,58 @@ function About() {
             <a href="#portfolio">
               <article className="about__card">
                 <FaAward className="about__icon" />
-                <h5>Project</h5>
-                <small>Projects developed and completed during my studies.</small>
+                <h5>Projetos</h5>
+                <small>Meus Projetos desenvolvidos.</small>
               </article>
             </a>
 
             <a href="#experience">
               <article className="about__card">
                 <GiAnatomy className="about__icon" />
-                <h5>HardSkills</h5>
-                <small>Skills that I have already acquired and that I will still acquire.</small>
+                <h5>Hard Skills</h5>
+                <small>Tecnologias e habilidades.</small>
               </article>
             </a>
 
             <a href="#softskill">
               <article className="about__card">
                 <GiSkills className="about__icon" />
-                <h5>SoftSkills</h5>
-                <small>Social-emotional and self-leadership skills.</small>
+                <h5>Soft Skills</h5>
+                <small>Habilidades interpessoais.</small>
               </article>
             </a>
           </div>
           <p>
-            I live in Rio de Janeiro, Brasil.
-            I'm 34 years old and I'm starting my career as a web developer.
-            I'm in a career transition,
-            leaving construction work to reinvent myself as a software programmer.
-            I am currently a student at the Trybe programming school,
-            one of the best and most qualified teaching institutions.
-            Already trained in Front-End and soon I will be earning my Back-End certificate.
-            Owner of a jovial and obstinate spirit, always looking for new learning and challenges!
-            I am looking for opportunities to develop my skills and add value to the team.
+            Olá! Estou muito animado em me candidatar para uma oportunidade na sua empresa.
+            Permitam-me apresentar um pouco sobre mim.
+          </p>
+          <p>
+            Sou um profissional de 34 anos, atualmente residindo na cidade do Rio de Janeiro.
+            Em 2021 decidi fazer uma transição de carreira e seguir minha paixão pela tecnologia.
+            Iniciei meus estudos de forma autodidata, mas logo percebi que precisava de
+            uma orientação mais estruturada.
+            Foi quando me matriculei na Trybe, uma escola de programação.
+            Concluí meus estudos e agora estou buscando uma oportunidade no mercado de
+            trabalho para aplicar e fortalecer minhas habilidades técnicas e pessoais.
+          </p>
+          <p>
+            Durante o curso da Trybe, tive a oportunidade de vivenciar mais de 1500 horas de
+            experiências práticas, inclusive prestando serviços como desenvolvedor freelance.
+            Essas experiências me permitiram aplicar meus conhecimentos em projetos reais,
+            aprimorando minhas habilidades técnicas e a capacidade de trabalhar em equipe.
+          </p>
+          <p>
+            Acredito que a combinação entre minha formação, minha experiência como desenvolvedor
+            freelance e minha determinação em aprender e crescer no campo da tecnologia
+            me tornam um profissional dedicado e comprometido.
+          </p>
+          <p>
+            Estou pronto para enfrentar desafios e contribuir para o sucesso da sua empresa.
+            Agradeço sinceramente pela atenção e aguardo ansiosamente a
+            oportunidade de discutir como posso agregar valor ao seu time.
           </p>
 
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">Vamos conversar ?</a>
         </div>
       </div>
     </section>

@@ -11,44 +11,44 @@ function Softskill() {
       <div className="container services__container">
         <article className="softskill">
           <div className="service__head">
-            <h3>Socio-emotional skills</h3>
+            <h3>Habilidades Socioemocionais</h3>
           </div>
 
           <ul className="service__list">
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Social initiative.</p>
+              <p>Iniciativa social.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Assertiveness.</p>
+              <p>Assertividade.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Enthusiasm.</p>
+              <p>Entusiasmo.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Empathy.</p>
+              <p>Empatia.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>I respect the plurality of ideas.</p>
+              <p>Respeito a pluralidade de ideias.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Communicativeness.</p>
+              <p>Comunicatividade.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Receptive.</p>
+              <p>Receptivo.</p>
             </li>
 
           </ul>
@@ -57,44 +57,44 @@ function Softskill() {
 
         <article className="softskill">
           <div className="service__head">
-            <h3>Team Skills</h3>
+            <h3>Habilidades em Equipe</h3>
           </div>
 
           <ul className="service__list">
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Curiosity to learn.</p>
+              <p>Curiosidade para aprender.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Creative imagination.</p>
+              <p>Imaginação criativa.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Stress tolerance.</p>
+              <p>Tolerância ao estresse.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Quick decision making.</p>
+              <p>Tomada de decisão rápida.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Frustration tolerance.</p>
+              <p>Tolerância à frustração.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Assertive communication.</p>
+              <p>Comunicação assertiva.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Ease of giving and receiving feedback.</p>
+              <p>Facilidade em dar e receber feedback.</p>
             </li>
 
           </ul>
@@ -103,44 +103,44 @@ function Softskill() {
 
         <article className="softskill">
           <div className="service__head">
-            <h3>Self-management skills</h3>
+            <h3>Habilidades de Autogestão</h3>
           </div>
 
           <ul className="service__list">
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Determination.</p>
+              <p>Determinação.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Organization.</p>
+              <p>Organização.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Focused.</p>
+              <p>Focado.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Persistence.</p>
+              <p>Persistência.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Self-leadership.</p>
+              <p>Autoliderança.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Resilient.</p>
+              <p>Resiliente.</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Obstinate.</p>
+              <p>Obstinado.</p>
             </li>
 
           </ul>
