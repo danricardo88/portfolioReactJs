@@ -4,7 +4,7 @@ import { ImQuotesLeft } from 'react-icons/im';
 
 import { IoIosArrowDropleftCircle, IoIosArrowDroprightCircle } from 'react-icons/io';
 import AVTR1 from '../../assets/avatarAramuni.jpeg';
-import AVTR2 from '../../assets/avatarPedrin.jpeg';
+import AVTR2 from '../../assets/avatarAndre.jpeg';
 import AVTR3 from '../../assets/avatarTrindade.jpeg';
 import AVTR4 from '../../assets/avatarLinike.jpg';
 import SectionHead from './SectionHead';
@@ -18,14 +18,13 @@ const testimonials = [
     linkedIn: 'https://www.linkedin.com/in/joaopauloaramuni/',
     review: 'Daniel é um dos nossos estudantes mais dedicados. Os resultados obtidos por ele são consequência da sua maturidade para estudar, consistência em suas entregas e envolvimento com a comunidade. Sua resiliência para contornar adversidades é inspiradora. Sem dúvida terá uma carreira brilhante na área de desenvolvimento e tenho orgulho de fazer parte dessa trajetória.',
   },
-  // {
-  //   id: 2,
-  //   avatar: AVTR2,
-  //   name: 'Pedro Ygor',
-  //   linkedIn: 'https://www.linkedin.com/in/pedro-ygor/',
-  // eslint-disable-next-line max-len
-  //   review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit pariatur aliquid dolores. Adipisci aut similique repudiandae minus ab ea, doloribus quidem quaerat. Reiciendis dolor enim cupiditate veritatis iusto! Eius, temporibus?',
-  // },
+  {
+    id: 2,
+    avatar: AVTR2,
+    name: 'André Cavalcanti',
+    linkedIn: 'https://www.linkedin.com/in/andregcav/',
+    review: 'Daniel é um profissional com que podemos contar. Trabalhamos juntos e identifiquei nele um grande potencial em se adaptar aos desafios, sempre focado na resolução de problemas.',
+  },
   // {
   //   id: 3,
   //   avatar: AVTR3,
