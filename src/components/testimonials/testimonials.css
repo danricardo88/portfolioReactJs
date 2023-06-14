@@ -1,7 +1,7 @@
 .testimonials {
   width: 100%;
   max-width: 50rem;
-  margin: 0 auto;
+  margin-inline: auto;
 }
 
 .testimonials__head {

@@ -3,10 +3,10 @@ import './testimonials.css';
 import { ImQuotesLeft } from 'react-icons/im';
 
 import { IoIosArrowDropleftCircle, IoIosArrowDroprightCircle } from 'react-icons/io';
-import AVTR1 from '../../assets/avatar1.jpeg';
-import AVTR2 from '../../assets/avatar2.jpg';
-import AVTR3 from '../../assets/avatar3.jpg';
-import AVTR4 from '../../assets/avatar4.jpg';
+import AVTR1 from '../../assets/avatarAramuni.jpeg';
+import AVTR2 from '../../assets/avatarPedrin.jpeg';
+import AVTR3 from '../../assets/avatarTrindade.jpeg';
+import AVTR4 from '../../assets/avatarLinike.jpg';
 import SectionHead from './SectionHead';
 import Card from './Card';
 
@@ -18,26 +18,28 @@ const testimonials = [
     linkedIn: 'https://www.linkedin.com/in/joaopauloaramuni/',
     review: 'Daniel é um dos nossos estudantes mais dedicados. Os resultados obtidos por ele são consequência da sua maturidade para estudar, consistência em suas entregas e envolvimento com a comunidade. Sua resiliência para contornar adversidades é inspiradora. Sem dúvida terá uma carreira brilhante na área de desenvolvimento e tenho orgulho de fazer parte dessa trajetória.',
   },
-  {
-    id: 2,
-    avatar: AVTR2,
-    name: 'Maria Silvia Schettino',
-    linkedIn: 'https://www.linkedin.com/in/joaopauloaramuni/',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit pariatur aliquid dolores. Adipisci aut similique repudiandae minus ab ea, doloribus quidem quaerat. Reiciendis dolor enim cupiditate veritatis iusto! Eius, temporibus?',
-  },
-  {
-    id: 3,
-    avatar: AVTR3,
-    name: 'Rafael Luiz RL',
-    linkedIn: 'https://www.linkedin.com/in/joaopauloaramuni/',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit pariatur aliquid dolores. ',
-  },
+  // {
+  //   id: 2,
+  //   avatar: AVTR2,
+  //   name: 'Pedro Ygor',
+  //   linkedIn: 'https://www.linkedin.com/in/pedro-ygor/',
+  // eslint-disable-next-line max-len
+  //   review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit pariatur aliquid dolores. Adipisci aut similique repudiandae minus ab ea, doloribus quidem quaerat. Reiciendis dolor enim cupiditate veritatis iusto! Eius, temporibus?',
+  // },
+  // {
+  //   id: 3,
+  //   avatar: AVTR3,
+  //   name: 'Marcello Trindade',
+  //   linkedIn: 'https://www.linkedin.com/in/marcello-trindade-lopes-b98658189/',
+  // eslint-disable-next-line max-len
+  //   review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit pariatur aliquid dolores. ',
+  // },
   {
     id: 4,
     avatar: AVTR4,
-    name: 'Zezé',
-    linkedIn: 'https://www.linkedin.com/in/joaopauloaramuni/',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit pariatur aliquid dolores. Adipisci aut similique repudiandae minus ab ea, doloribus quidem quaerat. Reiciendis dolor enim cupiditate veritatis iusto! Eius, temporibus?',
+    name: 'Linike Araújo',
+    linkedIn: 'https://www.instagram.com/linikearaujo/',
+    review: 'Gostaria de expressar meu profundo reconhecimento pelo seu trabalho como freelancer em nossa empresa. Sua dedicação e competência foram impressionantes. Foi um prazer contar com você em nossos projetos.Seu empenho e profissionalismo foram fundamentais para o sucesso das tarefas. Sua capacidade de lidar com desafios complexos e entregar resultados de alta qualidade foi notável. Agradeço por sua contribuição valiosa e desejo-lhe muito sucesso em sua carreira futura. Atenciosamente, Linike Araújo - Sócio Digital Mkt',
   },
 ];
 
@@ -66,7 +68,7 @@ function Testimonials() {
   return (
 
     <section className="testimonials">
-      <h2>Testimonials</h2>
+      <h2>Depoimentos de Colegas</h2>
       <div className="container testimonials__container">
         <SectionHead className="testimonials__head" />
         <Card className="testimonial">

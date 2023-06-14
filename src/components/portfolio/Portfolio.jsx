@@ -11,22 +11,22 @@ import IMG6 from '../../assets/portfolio6.jpg';
 const data = [
   {
     id: 1,
-    image: IMG3,
+    image: IMG1,
     title: 'Trybe Futebol Club',
     github: 'https://github.com/danricardo88/TrybeFutebolClube',
     page: 'https://www.linkedin.com/in/danielricardo/',
   },
   {
     id: 2,
-    image: IMG1,
+    image: IMG2,
     title: 'WebSite React Responsivo',
     github: 'https://github.com/danricardo88/react-webSite',
     page: 'https://responsivereactwebsite.netlify.app/',
   },
   {
     id: 3,
-    image: IMG2,
-    title: 'FullStack Blog',
+    image: IMG3,
+    title: 'FullStack Blog - Em Desenvolvimento',
     github: 'https://github.com/danricardo88/FullStack-Blog',
     page: 'https://blogdodan.netlify.app/',
   },
@@ -56,8 +56,8 @@ const data = [
 function Portfolio() {
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
-      <h2>Projects</h2>
+      {/* <h5>My Recent Work</h5> */}
+      <h2>Projetos</h2>
 
       <div className="container portfolio__container">
         {
