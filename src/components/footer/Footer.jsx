@@ -22,7 +22,7 @@ function Footer() {
       <div className="footer__socials">
         <a href="https://github.com/danricardo88"><GoMarkGithub /></a>
         <a href="https://www.linkedin.com/in/danielricardo/"><BsLinkedin /></a>
-        <a href="https://www.instagram.com/giganterj/"><FiInstagram /></a>
+        <a href="https://www.instagram.com//"><FiInstagram /></a>
       </div>
 
       <div className="footer__copyright">

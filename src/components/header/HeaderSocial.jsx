@@ -20,7 +20,7 @@ function HeaderSocial() {
         <GoMarkGithub />
       </a>
       <a
-        href="https://www.instagram.com/giganterj/"
+        href="https://www.instagram.com//"
         t
         arget="_blank"
 
